@@ -1,0 +1,16 @@
+.SearchInput {
+  width: 229px;
+  height: 24px;
+
+  color: white;
+
+  background-color: transparent;
+
+  border: 1px solid white;
+  border-radius: 12px;
+  padding-left: 0.75rem;
+
+  outline: 0;
+
+  caret-color: white;
+}

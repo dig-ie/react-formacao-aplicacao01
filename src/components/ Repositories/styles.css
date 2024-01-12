@@ -1,0 +1,12 @@
+.RepositoriesWrapper {
+  width: 311px;
+  height: 53px;
+}
+
+.RepositorieInfo h2 {
+  color: rgba(83, 155, 245, 1);
+}
+
+.RepositorieInfo p {
+  color: rgba(153, 153, 153, 1);
+}
