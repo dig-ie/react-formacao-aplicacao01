@@ -1,20 +1,29 @@
+.UserProfileContainer {
+  display: flex;
+  margin-top: 1rem;
+  border-bottom: 1px solid rgba(229, 229, 229, 0.2);
+}
+
 .UserProfileWrapper {
+  width: 100%;
   box-sizing: border-box;
   width: 317px;
   height: 85px;
-  border: 1px solid red;
 
   font-size: 8px;
 
   display: flex;
+  justify-content: center;
   gap: 0.75rem;
-
+  padding: auto;
   color: rgba(153, 153, 153, 1);
 }
 
 .UserProfileTextWrapper {
   width: 100%;
-
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   overflow: hidden;
 }
 

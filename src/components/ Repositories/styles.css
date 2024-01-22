@@ -1,10 +1,47 @@
+.RepositorieLink {
+  text-decoration: none; /* Remove sublinhado */
+  color: inherit; /* Herda a cor do pai (normalmente preto) */
+  cursor: pointer; /* Altera o cursor para indicar que é clicável */
+}
+
+.RepositorieLink a:hover {
+  color: cornflowerblue;
+}
+
+.RepositorieLink,
+a:active,
+a:focus {
+  /* Remove estilos adicionais para efeitos de hover, clique e foco */
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
 .RepositoriesWrapper {
+  padding-left: 1rem;
+
   width: 311px;
   height: 53px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
 .RepositorieInfo h2 {
   color: rgba(83, 155, 245, 1);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.RepositorieInfo h2:hover {
+  text-decoration: underline;
 }
 
 .RepositorieInfo p {

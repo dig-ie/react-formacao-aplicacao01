@@ -7,10 +7,7 @@ const Repositories = () => {
       <div className="RepositoriesWrapper">
         <div className="RepositorieInfo">
           <h2>repo-name</h2>
-          <p>
-            repo description
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
-          </p>
+          <p>repo description </p>
         </div>
       </div>
       ;
