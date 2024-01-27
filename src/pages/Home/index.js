@@ -78,7 +78,9 @@ function App() {
             })
           : null}
       </div> */}
-        <h1 className="RepositoriesH1Text">Repositórios</h1>
+        {repos?.length ? (
+          <h1 className="RepositoriesH1Text">Repositórios</h1>
+        ) : null}
         <div className="RepositoriesWrapper">
           {repos?.length
             ? repos
