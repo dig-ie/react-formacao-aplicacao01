@@ -29,3 +29,7 @@ body {
   justify-content: center;
   padding-right: 2rem;
 }
+
+.MainWrapper {
+  height: 100vh;
+}
